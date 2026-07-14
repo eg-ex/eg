@@ -1314,7 +1314,7 @@
         const app = firebase.initializeApp(firebaseConfig);
         const database = firebase.database();
 
-        let adminPass = localStorage.getItem('adminPassword') || "gohary01010081147mo";
+        let adminPass = localStorage.getItem('adminPassword') || "01010081147";
         let sections = [], subjects = [], lessons = [], sublessons = [], allQuestions = [];
         let autoBackup = localStorage.getItem('autoBackup') !== 'false';
         let isDark = localStorage.getItem('darkMode') === 'true';
@@ -1521,7 +1521,7 @@
         }
 
         // Fixed base URL that the section/subject/lesson ID is appended to when sharing a link
-        const SHARE_BASE_URL = 'https://selahalazhary.github.io/3/';
+        const SHARE_BASE_URL = 'https://eg-ex.github.io/';
         const SHARE_PARAM = 'section';
         function buildShareLink(id) { return SHARE_BASE_URL + '?' + SHARE_PARAM + '=' + encodeURIComponent(id); }
 
