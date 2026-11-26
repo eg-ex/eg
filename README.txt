@@ -1,7 +1,1 @@
-موقع EX EG المستقل
-
-تعرض الصفحة صور صفحات الملف التعريفي الخمس فقط، مع زرين ثابتين أسفل الشاشة:
-- واتساب: 01102052415.
-- البريد الإلكتروني: elgoharyx67@gmail.com.
-
-ارفع محتويات هذا المجلد كاملة إلى استضافة مواقع ثابتة للحصول على رابط عام. ارفع مجلد portfolio مع index.html و styles.css حتى تظهر صور الصفحات.
+EX EG website files. Open index.html to view. All required local assets are in this same folder.

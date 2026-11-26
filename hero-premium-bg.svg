@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1855" height="900" viewBox="0 0 1855 900" fill="none">
+  <defs>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="matrix(500 380 -420 550 150 110)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#9068C8" stop-opacity=".12"/><stop offset="1" stop-color="#9068C8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="0" cy="0" r="1" gradientTransform="matrix(430 330 -360 470 1690 140)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3159B5" stop-opacity=".10"/><stop offset="1" stop-color="#3159B5" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="arc" x1="210" x2="1610" y1="640" y2="180" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3159B5" stop-opacity="0"/><stop offset=".45" stop-color="#5B21B6" stop-opacity=".17"/><stop offset="1" stop-color="#3159B5" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#1A2050" fill-opacity=".09"/>
+    </pattern>
+    <linearGradient id="fade" x1="0" x2="0" y1="0" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FAF7F0" stop-opacity="0"/><stop offset=".78" stop-color="#FAF7F0" stop-opacity=".08"/><stop offset="1" stop-color="#FAF7F0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1855" height="900" fill="url(#glow)"/>
+  <rect width="1855" height="900" fill="url(#glow2)"/>
+  <path d="M-80 600C300 260 670 210 960 345c320 150 575 90 1000-235" stroke="url(#arc)" stroke-width="1.5"/>
+  <path d="M-80 638C300 298 670 248 960 383c320 150 575 90 1000-235" stroke="url(#arc)" stroke-width="1"/>
+  <path d="M-80 676C300 336 670 286 960 421c320 150 575 90 1000-235" stroke="url(#arc)" stroke-width=".75"/>
+  <rect x="55" y="360" width="132" height="132" fill="url(#dots)" opacity=".55"/>
+  <rect x="1660" y="340" width="132" height="132" fill="url(#dots)" opacity=".45"/>
+  <circle cx="280" cy="222" r="3" fill="#5B21B6" fill-opacity=".20"/>
+  <circle cx="1570" cy="250" r="2.5" fill="#3159B5" fill-opacity=".22"/>
+  <circle cx="1440" cy="540" r="2" fill="#5B21B6" fill-opacity=".18"/>
+  <rect width="1855" height="900" fill="url(#fade)"/>
+</svg>
